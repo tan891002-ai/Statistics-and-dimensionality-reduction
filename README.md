@@ -98,7 +98,7 @@ $$
 ### Step 1 - Mean Centering(中心化)
 
 $$ 
-X_{ai}^{'} = x_{ai} - \mu_i 
+x_{ai}^{'} = x_{ai} - \mu_i 
 $$
 
 $a$ ：第a張影像
