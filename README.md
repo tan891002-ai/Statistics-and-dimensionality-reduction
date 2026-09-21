@@ -1,5 +1,5 @@
 # dimensionality reduction ：PCA(Principal Component Analysis)
-統計學及降維分析整理
+線性降維PCA整理
 ## PCA簡介
 PCA(Principal Component Analysis, 主成分分析)
 是一種常見的降維方法
