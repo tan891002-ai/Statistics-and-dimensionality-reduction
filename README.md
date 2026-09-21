@@ -93,8 +93,8 @@ $$
     
     0、1、...、59999
 
-## 演算法過程
+## 演算法步驟
 
-## Step 1 - Mean Centering(中心化)
+### Step 1 - Mean Centering(中心化)
 
-$$ X_i^' = x_i - \nu $$ 
+$$ X_i^{'} = x_i - \mu $$ 
