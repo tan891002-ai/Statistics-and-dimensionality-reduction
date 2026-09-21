@@ -9,6 +9,7 @@ PCA(Principal Component Analysis, 主成分分析)
 ![PCA流程圖](PCA_Flowchart.png)
 # 特色公式
 ## 1、特徵分解
+
 $$
 Cv = \lambda v
 $$
