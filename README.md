@@ -34,6 +34,7 @@ $EVR_i$ 為Explained Variance Ratio,解釋變異比, $EVR$ ：表示第 $i$ 個�
 ### 累積解釋變異比
 
 PCA會依照累積解釋變異比(Cumulative Explained Variance Ratio, CEVR)選擇保留的主成分數量
+
 $$ 
 CEVR_k = 
 \sum_{i=1}^k EVR_i 
