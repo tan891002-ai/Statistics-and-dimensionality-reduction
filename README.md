@@ -77,8 +77,8 @@ $$ Z_i = X_c V_i $$
 
 ### 輸入資料維度
    
-    $$
-    X \in \mathbb{R}^{60000 \times 784}
-    $$
+$$
+X \in \mathbb{R}^{60000 \times 784}
+$$
     
-    ![原始資料矩陣](Original_MNIST_data.png)
+![原始資料矩陣](Original_MNIST_data.png)
