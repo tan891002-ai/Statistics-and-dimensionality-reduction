@@ -1,4 +1,4 @@
-# Statistics-and-dimensionality-reduction
+# dimensionality reduction ：PCA(Principal Component Analysis)
 統計學及降維分析整理
 ## PCA簡介
 PCA(Principal Component Analysis, 主成分分析)
