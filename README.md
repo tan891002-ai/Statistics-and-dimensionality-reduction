@@ -84,3 +84,7 @@ X \in \mathbb{R}^{60000 \times 784}
 $$
     
 ![原始資料矩陣](Original_MNIST_data.png)
+
+每一列(Columns)：為一個變數，在這就是其中一個像素位置
+
+每一行(Row)：為一個樣本，在這為其中一張數字影像
