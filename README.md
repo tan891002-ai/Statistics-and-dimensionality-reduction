@@ -10,4 +10,5 @@ PCA(Principal Component Analysis, 主成分分析)
 1、特徵分解
 1-1、特徵值
 1-2、特徵分解
-2、累積解釋變異度
+2、投影
+3、解釋變異度
