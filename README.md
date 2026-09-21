@@ -1,4 +1,4 @@
-# dimensionality reduction ：PCA(Principal Component Analysis)
+# Dimensionality reduction ：PCA(Principal Component Analysis)
 線性降維PCA整理
 ## PCA簡介
 PCA(Principal Component Analysis, 主成分分析)
