@@ -26,6 +26,11 @@ EVR_i =
 {\sum_{j=1}^{p}\lambda_j}
 $$
 
+$EVR_i$ 為Explained Variance Ratio,EVR ：解釋變異比
+由 $lambda_i$ 佔整體特徵值的比例決定
+可解釋出這個方向所包含的資訊比
+
+
 累積解釋變異度則為：
 
 $$
