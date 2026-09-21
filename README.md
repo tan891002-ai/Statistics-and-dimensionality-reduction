@@ -135,5 +135,5 @@ $$
 ### step 2 - Covariance Matrix(共變異矩陣)
 
 $$
-\frac{1}{n-1}
+C = \frac{1}{n-1}X_c^{T}X_c
 $$
