@@ -249,3 +249,66 @@ $$
 - $\cdots$
 
 => 將變異最大的方向排在最前面，方便後續選擇主要的主成分
+
+### Step 4 - Explained Variance Ratio（EVR）與 Cumulative Explained Variance Ratio（CEVR）
+
+特徵值排序後，可透過特徵值計算每個主成分所能解釋的變異比例。
+
+**Explained Variance Ratio（EVR）**
+
+$$
+EVR_i=
+\frac{\lambda_i}
+{\sum_{j=1}^{784}\lambda_j}
+$$
+
+$\lambda_i$：第 $i$ 個主成分所對應的特徵值
+
+EVR 用於表示第 $i$ 個主成分所保留的資料變異比例。
+
+例如：
+
+$$
+EVR_1=0.0975
+$$
+
+代表第一主成分約保留整體資料 **9.75%** 的變異。
+
+---
+
+**Cumulative Explained Variance Ratio（CEVR）**
+
+將前面的 EVR 累積：
+
+$$
+CEVR_k=
+\sum_{i=1}^{k}EVR_i
+$$
+
+CEVR 用於表示前 $k$ 個主成分累積保留的資料變異比例。
+
+例如：
+
+$$
+CEVR_1=EVR_1
+$$
+
+$$
+CEVR_2=EVR_1+EVR_2
+$$
+
+$$
+CEVR_3=EVR_1+EVR_2+EVR_3
+$$
+
+以此類推。
+
+=> EVR 用於觀察**單一主成分**的變異貢獻，
+
+=> CEVR 用於觀察**累積使用多個主成分後**所保留的變異比例。
+
+![EVR](EVR.png)
+
+![CEVR](CEVR.png)
+
+透過 CEVR 可以決定需要保留多少個主成分，以達到所設定的資訊保留程度。
