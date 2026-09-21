@@ -12,6 +12,8 @@ PCA(Principal Component Analysis, 主成分分析)
 $$
 Cv = \lambda v
 $$
-其中$C$為共變異矩陣，$\lambda$為特徵值，%v$為特徵向量
+
+其中 $C$ 為共變異矩陣，$\lambda$ 為特徵值，$v$ 為特徵向量
+
 ## 2、投影
 ## 3、解釋變異度
